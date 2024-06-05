@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 16px 0;
+    background-color: #003058;
+    color: #fff;
+}
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+header nav li a{
+    text-decoration: none;
+    color: #fff;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    align-items: center;
+}
+header .container{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
