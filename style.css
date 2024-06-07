@@ -51,3 +51,47 @@ section{
     margin-right: 32px;
     height: 680px;
 }
+#contato .container{
+    display: block;
+}
+.redes img{
+    height: 24px;
+}
+.redes li{
+    display: inline;
+    margin-right: 8px;
+}
+.redes li a{
+    text-decoration: none;
+}
+.mcontatos{
+    display: flex;
+    justify-content: space-between;
+}
+form input, form textarea,form button{
+    display: block;
+    width: 320px;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+form textarea{
+    resize: none;
+    height: 180px;
+}
+form button{
+    background-color: #003058;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: #62b9ff;
+}
+textarea:focus,input:focus{
+    outline-color: #003058;
+}
+footer{
+    background-color: #003058;
+    color: #fff;
+    padding: 16px 0;
+}
